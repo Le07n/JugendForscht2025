@@ -1,14 +1,35 @@
-## Basketball Programm
 
-Das Programm kann mehrere Basketball Würfe, in Abhängigkeit vom Wurfwinkel und der Wurfgeschwindigkeit, simulieren.
+# Simulation eines Basetballwurfs
 
-Die Parameter, sowie die Einstellungen zur Simulation können nach öffnen der Datei in den Textfeldern eingegeben werden.
+Das Programm kann einen Basketballwurf unter verschiedenen Bedingungen simulieren und eine Grafik erstellen, die mehrere unterschiedliche Würfe darstellt und die besten farblich hervorhebt.
 
-Nachdem man den Simulieren Knopf drückt, wird ein Bild erstellt und ausgegeben, das ein Koordinatensystem enthält.
-Dieses verbildlicht in Abhängigkeit des Wurfwinkels und Wurfgeschwindigkeit wie weit der Ball vom Korb entfernt ist.
-Diese Verbildlichung erfolgt durch mehrere Kästchen, die unterschiedliche Farben haben, je nachdem wie weit weg der Ball ist.
-Weiß: Sehr gut getroffen
-Grün: Getroffen 
-Gelb: Fast getroffen
-Rot: Nicht getroffen
-Wie Zuteilung von Distanz des Balls und der zugehörigen Farbe, kann ebenfalls im Fenster geändert werden.
+
+## Autor
+
+- [@Leon Stopper](https://www.github.com/Le07n)
+
+
+## Umsetzung
+
+Zur Berechnung wurde die Methode der kleinen Schritte genutzt, um trotz Luftwiderstand einen möglichst genauen Wurf zu ermitteln.
+
+
+## Generierte Grafik
+
+![Generierte Grafik](GrafikWurf.png)
+
+
+## Installation
+
+Installiere mein Projekt mit Git Bash
+
+```bash
+  git clone https://github.com/Le07n/JugendForscht2025.git
+  cd JugendForscht2025
+```
+
+Öffne es mit folgendem Befehl
+
+```bash
+  java -jar Basketball.jar
+```
