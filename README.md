@@ -1,7 +1,7 @@
 
 # Simulation eines Basetballwurfs
 
-Das Programm kann einen Basketballwurf unter verschiedenen Bedingungen simulieren und eine Grafik erstellen, die mehrere unterschiedliche Würfe darstellt und die besten farblich hervorhebt.
+Das Programm kann einen Basketballwurf unter verschiedenen Bedingungen simulieren und eine Grafik erstellen, die mehrere unterschiedliche Würfe darstellt und die Besten farblich hervorhebt.
 
 
 ## Autor
